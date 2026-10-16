@@ -1,0 +1,27 @@
+LIBRARY openvr_api
+EXPORTS
+  VR_GetGenericInterface
+  LiquidVR=thunk_LiquidVR
+  VRCompositorSystemInternal=thunk_VRCompositorSystemInternal
+  VRControlPanel=thunk_VRControlPanel
+  VRDashboardManager=thunk_VRDashboardManager
+  VROculusDirect=thunk_VROculusDirect
+  VROverlayView=thunk_VROverlayView
+  VRPaths=thunk_VRPaths
+  VRRenderModelsInternal=thunk_VRRenderModelsInternal
+  VRSceneGraph=thunk_VRSceneGraph
+  VRTrackedCameraInternal=thunk_VRTrackedCameraInternal
+  VRVirtualDisplay=thunk_VRVirtualDisplay
+  VRHeadsetView=thunk_VRHeadsetView
+  VR_GetInitToken=thunk_VR_GetInitToken
+  VR_GetStringForHmdError=thunk_VR_GetStringForHmdError
+  VR_GetVRInitErrorAsEnglishDescription=thunk_VR_GetVRInitErrorAsEnglishDescription
+  VR_GetVRInitErrorAsSymbol=thunk_VR_GetVRInitErrorAsSymbol
+  VR_InitInternal=thunk_VR_InitInternal
+  VR_InitInternal2=thunk_VR_InitInternal2
+  VR_IsHmdPresent=thunk_VR_IsHmdPresent
+  VR_IsInterfaceVersionValid=thunk_VR_IsInterfaceVersionValid
+  VR_IsRuntimeInstalled=thunk_VR_IsRuntimeInstalled
+  VR_RuntimePath=thunk_VR_RuntimePath
+  VR_GetRuntimePath=thunk_VR_GetRuntimePath
+  VR_ShutdownInternal=thunk_VR_ShutdownInternal

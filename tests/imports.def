@@ -1,0 +1,8 @@
+LIBRARY openvr_api.dll
+EXPORTS
+  VR_IsHmdPresent
+  VR_IsRuntimeInstalled
+  VR_InitInternal
+  VR_ShutdownInternal
+  VR_GetGenericInterface
+  VR_GetVRInitErrorAsEnglishDescription
